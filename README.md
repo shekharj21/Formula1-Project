@@ -35,3 +35,23 @@
 ## Reporting Requirments :
 1. Driver Standings.
 2. Constructor Standings.
+
+## Analysis Requiremnts :
+1. Dominant Drivers.
+2. Dominant Teams.
+3. Visualize the outputs.
+4. Create Databricks Dashboards.
+
+## Scheduling Requiremnts :
+1. Schedule to run pipelines every sunday 10 PM.
+2. Ability to monitor pipelines.
+3. Ability to rerun failed pipelines.
+4. Ability to setup alerts on failures.
+
+## Non-Functional Requirments :
+1. Delete individual Records (for use of privacy legislation such as GDPR)
+2. history and timetravel of data.
+3. Ability to roll back to previous version.
+
+## Solution Architecture :
+
