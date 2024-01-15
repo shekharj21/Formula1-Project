@@ -21,3 +21,12 @@
 4. ingested data must be stored in columnar format ---- parquet.
 5. Must be able to analyze the ingested data via SQL.
 6. Ingestion logic must be able to handle incremental laod.
+
+
+## Data transformation Requiremnts :
+1. Join the key information required for reporting to create a new table.
+2. Join the key information required for analysis to create a new table.
+3. transformed data must have audit columns.
+4. Must be able to analyze the transformed data via SQL.
+5. Transformed data format ----- parquet.
+6. Transformation logic must be Able to handle Incremental Load.
