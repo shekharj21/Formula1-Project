@@ -54,8 +54,17 @@
 3. Ability to roll back to previous version.
 
 ## Solution Architecture :
+ ![ingest-etl-and-stream-processing-with-azure-databricks](https://github.com/shekharj21/shekharj21/assets/54074505/ef86453b-4259-4446-a09d-f09f383650d0)
 - I have used the Microsoft Azure Architecture page to finalise the Solution.
 - Here is the link -------- https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/ingest-etl-stream-with-adb
 - My Solution is Similar to this Image Below.
-  ![ingest-etl-and-stream-processing-with-azure-databricks](https://github.com/shekharj21/shekharj21/assets/54074505/ef86453b-4259-4446-a09d-f09f383650d0)
+ 
 
+
+# Data Ingestion :
+### Circuits :
+- Rename circuitId, circuitRef to circuit_id, circuit_ref
+- drop the url Column as it is not adding any value.
+- Rename lat--- latitude, long----- longitude, alt-------- altitude
+- Add new column ingestion_date (timestamp)
+- We'll also make sure that all the filetypes are same as we will convert this file into Parquet.
