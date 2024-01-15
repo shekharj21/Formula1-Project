@@ -30,3 +30,8 @@
 4. Must be able to analyze the transformed data via SQL.
 5. Transformed data format ----- parquet.
 6. Transformation logic must be Able to handle Incremental Load.
+
+
+## Reporting Requirments :
+1. Driver Standings.
+2. Constructor Standings.
