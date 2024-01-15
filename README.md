@@ -54,4 +54,8 @@
 3. Ability to roll back to previous version.
 
 ## Solution Architecture :
+- I have used the Microsoft Azure Architecture page to finalise the Solution.
+- Here is the link -------- https://learn.microsoft.com/en-us/azure/architecture/solution-ideas/articles/ingest-etl-stream-with-adb
+- My Solution is Similar to this Image Below.
+  ![ingest-etl-and-stream-processing-with-azure-databricks](https://github.com/shekharj21/shekharj21/assets/54074505/ef86453b-4259-4446-a09d-f09f383650d0)
 
