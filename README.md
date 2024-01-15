@@ -14,3 +14,10 @@
 3. In the data File we have 6 files which are in CSV and JSON file format. Upload those file raw container.
 4. Upload the 2 Folders too named as lap_times and qualifying.
 
+## Data Ingestion Requirements :
+1. Ingest all 8 files into data lake.
+2. Ingested data must have the schema applied.
+3. ingested data must have audit columns.
+4. ingested data must be stored in columnar format ---- parquet.
+5. Must be able to analyze the ingested data via SQL.
+6. Ingestion logic must be able to handle incremental laod.
